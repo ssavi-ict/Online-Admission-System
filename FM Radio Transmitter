@@ -1,0 +1,135 @@
+[ For watching images Copy this link : https://github.com/ssavi/Projects/wiki/FM-Transmitter]
+
+Project Title: Making of a FM Radio Transmitter.
+
+Theory: 
+As we firstly know modulation is a technique by which information can travel a long distance with the help of carrier wave. Different types of modulation are introduced several times in order to make modulation & signal transmission easier and more efficient. We are very familiar about Amplitude Modulation. Keeping frequency and other invariant constant changing the Amplitude & rate of change are varied by modulating signal. It was a good Modulation technique but as amplitude is an important characteristic of a signal and by modulation the Amplitude of a signal may be changed that’s why there is some disadvantages of Amplitude Modulations. As an alternate of AM at 1936 in order to make the radio transmission more efficient the Frequency Modulation technique introduced. This modulation is characterized by keeping Amplitude constant and changing frequency and rate of change by the modulating signal.  The FM transmitter is an application of Frequency Modulation system. A figure can easily points out the difference between Amplitude and Frequency Modulation. Image Below :
+
+
+![](http://imgh.us/Capture_204.jpg)
+
+
+
+FM radio is frequency modulation based radio technology. The variable capacitor and our  self-made inductor will vibrate at frequencies in the FM radio band (88 to 108 MHz). The electret microphone has a resistance that depends on how loudly you speak into it. This microphone is battery powered and according to the V=IR Ohm's Law, changes in resistance for fixed voltage will result in proportional changes in current. This current feeds into the base of the 2N2222 NPN transistor which is connected to your variable capacitor, inductor and antenna. The net effect is that depending on your variable capacitor's value, your voice will be modulated to transmit at a frequency between 88 and 108 MHz. If a nearby pocket FM radio is tuned to this frequency, we'll be able to heard when speaking into our transmitter. 
+That’s actually how a FM radio works.
+ 
+Apparatus:
+1.	Bread Board.
+
+2.	Audio Source.
+
+3.	FM Receiver.
+
+4.	Resistances:
+i.	 47K  (2)
+ii.	1M  (1)
+iii.	10K  (1)
+iv.	470R (1)
+
+5.	Ceramic Capacitors:
+i.	100nF  (3)
+ii.	1nF      (1)
+iii.	33pF    (2)
+iv.	10pF    (2)
+
+6.	Transistors:
+i.	2N3904 NPN Transistor   (2)
+
+7.	4 Turn Coil ( Acts as an Inductor )
+
+8.	10mm Audio Condenser MIC
+
+9.	Antenna ( A long Connecting Wire )
+
+10.	Connecting Wires.
+
+11.	Power Source.
+
+12.	Batter Cap.
+     
+ 
+Circuit Schematic Diagram:  Below we have tried to plot a Circuit Schematic Diagram of our FM Circuit.
+Image : 
+
+![](http://imgh.us/Capture_205.jpg)
+
+
+
+Description of Some Components: At this stage we would like to give some component’s short description.
+Resistors:
+A resistor restricts the flow of electrical current. For our water analogies, think of a narrow pipe – the narrower or
+longer the pipe, the more pressure is required to achieve the same flow.
+The simplest model for an electrical resistor is to assume a linear relationship between voltage (_pressure) and
+current (i.e. flow). This is known as Ohm’s law:
+                            I = V/R
+or, equivalently                                  
+                            V = IR
+To keep the units straight, voltage is measured in “volts”, where one volt is one joule per coulomb. A joule is a unit of
+energy (one kilogram_meter2/second2), and a coulomb is a unit of electrical charge (−6.24_1018 electrons). Current
+is measured in “amperes ’ where one ampere is one coulomb per second. Resistance is measured in ohms, where one
+ohm is one volt per ampere.
+
+It’s handy to know formulas for resistors in series and resistors in parallel. They are:
+                            Rseries = R1 + R2
+                            Rparallel = (1/R1) + (1/R2)
+
+Capacitors:
+Next to resistors, capacitors are probably the second most commonly used component in electronic circuits. A capacitor is a device that can temporarily store an electric charge. Capacitors come in several different varieties, the two most common beingceramic disk and electrolytic. The amount of capacitance of a given capacitor is usually measured in microfarads, abbreviated μF.
+If we assume a linear relationship, we get
+                      Q = CV
+where Q is the charge stored in the capacitor in coulombs, and C is the “capacitance” of the capaictor. Capacitance is
+measured in “farads” where one farad is one coulomb per volt.
+
+Transistors:
+      A transistor is a three-terminal device in which a voltage applied to one of the terminals (called the base) can control current that flows across the other two terminals (called the collector and the emitter). The transistor is one of the most important devices in electronics.
+
+
+Electret Microphone:
+      An electret microphone has two pins which connect to the positive and negative leads of a battery.
+
+Battery:
+      This is power source, which is generate energy for our system. We can use 2V - 12V battery. Here we used 9V Battery. 
+
+Inductor:
+      An inductor is just a coil of wire and you need to wind one for this circuit. An inductor is characterized by its length, radius and the number of turns of wire in the coil. Magnet wire (Radio Shack part 278-1345) was used to build the inductor but you can use standard solid strand 22 AWG gauge copper wire.
+
+Antenna:
+      A 30 inch long piece of 22 gauge solid stramd copper wire is a suitable antenna. However when carrying the transmitter, you risk tangling the wire. As such you can screw a telescopic antenna, like ones found a radios, into the prototyping board.
+
+Inductance of an Air Core Coil:
+      Your self-made inductor has a value determined by its radius r, length x and number of wire turns n.
+The specific frequency f generated is now determined by the capacitance C and inductance L measured in Farads and Henry respectively.
+ 
+
+Result:
+As a result we have got a modest output of our input signal. Although our signal is not 100% correct and as there is some noisy condition added with the output but we have got an idea about what the output will be and how it will be transmitted through the signal? 
+At the time of trimming our signal will transmit over the frequency 92.7 MHz. And our sound is ranged about 9 meters. 
+
+Discussion:
+At this stage we would like to mention some of our may be faults and how we make it better.
+So, we tried hard to make our output better. Somehow we may not able to make 100% percent better outputs. So our faults may be in Power Source placing technique. The points of our Bread Board was little bit loosen up. That’s why some connection may be loosening up too. The main thing is our inductor is not correctly soldered as well as our all items are not correctly soldered. This may be a reason for not getting then a better than that output. Also we used a Copper wire as an Antenna actually the antenna cannot be correctly stands itself. We had to hold it by hands. This may be a reason. 
+On the other hand, the coils are handmade. And not purely designed. Another important reason may be the noise of other conflictive signals in the air. Also the environmental noise is added to our input signals. If we have an option to use a head phone plug to give an input signal then we may get a good result.
+ What we have tried to give a shorter idea about FM radio transmission. We opt out to fix the errors next time while we get an option again to work with that project in vast resolution.
+
+Precaution:
+i)	All connections are checked correctly.
+ii)	Used the actual configuration power source.
+iii)	Tried to make all things perfect at the time of using.
+iv)	All used components are new and not used previously.
+
+ 
+References:
+i)	www.bug-transmitter.com
+ii)	www.techshopbd.com
+iii)	www.toolsbd.com
+iv)	Wireless FM Transmitter Tutorial by 
+Paul Y. Oh
+Robotics professor in the mechanical engineering department 
+Drexel University in Philadelphia, PA, USA
+v)	www.youtube.com ( Tutorials on FM transmission) 
+
+
+
+
+
+                                                      THE END
