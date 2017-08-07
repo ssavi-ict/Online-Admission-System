@@ -9,7 +9,6 @@ As we firstly know modulation is a technique by which information can travel a l
 ![](http://imgh.us/Capture_204.jpg)
 
 
-
 FM radio is frequency modulation based radio technology. The variable capacitor and our  self-made inductor will vibrate at frequencies in the FM radio band (88 to 108 MHz). The electret microphone has a resistance that depends on how loudly you speak into it. This microphone is battery powered and according to the V=IR Ohm's Law, changes in resistance for fixed voltage will result in proportional changes in current. This current feeds into the base of the 2N2222 NPN transistor which is connected to your variable capacitor, inductor and antenna. The net effect is that depending on your variable capacitor's value, your voice will be modulated to transmit at a frequency between 88 and 108 MHz. If a nearby pocket FM radio is tuned to this frequency, we'll be able to heard when speaking into our transmitter. 
 That’s actually how a FM radio works.
  
