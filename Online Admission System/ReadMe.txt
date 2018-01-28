@@ -5,3 +5,8 @@ For the proper working of the system some requiremets need to be fulfilled:
 2. Username for the server must be root and there must not be any password. if there is a password change it in the config file.
 
 3. For admin activity you must use username = "admin" and password = "admin" 
+
+4. For uploading images you can upload from TempImage folder or anywhere you want from your PC.
+
+5. The profile image of students will be saved at 'images' folder, the signature of students will be saved at 'Signature' folder and 
+the drafts will be saved at 'Drafts' folder. 
