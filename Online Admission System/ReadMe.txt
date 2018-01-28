@@ -6,7 +6,9 @@ For the proper working of the system some requiremets need to be fulfilled:
 
 3. For admin activity you must use username = "admin" and password = "admin" 
 
-4. For uploading images you can upload from TempImage folder or anywhere you want from your PC.
+4. You must create an Admin Account into database "mdb" at MySQL by accessing phpMyAdmin. 
 
-5. The profile image of students will be saved at 'images' folder, the signature of students will be saved at 'Signature' folder and 
+5. For uploading images you can upload from TempImage folder or anywhere you want from your PC.
+
+6. The profile image of students will be saved at 'images' folder, the signature of students will be saved at 'Signature' folder and 
 the drafts will be saved at 'Drafts' folder. 
