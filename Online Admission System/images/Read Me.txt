@@ -1,0 +1,13 @@
+It will store the Image files. 
+
+Some of the images are by default part of the folder that are used to design the whole web pages. Don't delete those. 
+
+1) 1.jpg
+2) 2.jpg
+3) 3.jpg
+4) admin.png
+5) Admission - 1.jpg
+6) Admission - 2.jpg
+7) Admission - 3.jpg
+8) banner-image.jpg
+9) bodybg.jpg
