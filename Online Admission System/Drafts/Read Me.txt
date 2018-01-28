@@ -1,0 +1,1 @@
+It will store the Draft image files.
