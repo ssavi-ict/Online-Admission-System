@@ -1,0 +1,78 @@
+body{
+      background-image:url('images/bodybg.jpg');
+	   background-size:cover;
+	   background-attachment:fixed;}
+	  
+.all{width:80%;
+margin: 0 auto;background:white;}	  
+	  
+	  
+	  /* menu style start here*/ 
+	 .main_menu{z-index:10;
+	           margin:0 auto;
+			   width:85%;}
+
+			.main_menu>ul{
+			width: 100%;
+			background: ;
+			height: 50px;
+			}
+
+			.main_menu>ul li{
+				padding:.5em;
+				width:120px;
+				float: left;
+				list-style:none;
+				text-align:center;
+				position:relative;}
+				
+			/* apply left border without first child */
+
+
+
+             
+			.main_menu>ul >li:nth-child(n+2){border-left:.2em double black;}
+				
+			.main_menu li a{color:white;
+			padding:1em;
+			font-size:1em;
+			text-decoration:none;}
+
+			.main_menu li :hover  a{color:white;
+						}	
+						
+
+			.main_menu ul li ul {position:absolute;
+					  /*display:none;*/
+					  top:-2000px;
+					  left:-42px;
+					  width:inherit;
+					  z-index:-1;
+					  -webkit-transition-property:top;
+					  -webkit-transition-duration:1s;
+					  transition-property:top;
+					  transition-duration:1s; }
+
+			.main_menu li ul li {float:none;
+					 margin:.2em 0em 0em 0em;
+					 background:;}	
+
+			.main_menu ul li:hover ul     { 
+					/*display:block;*/
+					top:3em;}
+					
+			.main_menu ul li:hover {background:black;}
+
+
+			.hvr-shutter-in-vertical {
+				background: #0184ec;
+				transition-duration: .5s;
+			}
+
+			.hvr-shutter-in-vertical:before {
+				background: #0287ec;
+					transition-duration: .5s;
+			}
+    
+	
+footer{background:gray;}	
